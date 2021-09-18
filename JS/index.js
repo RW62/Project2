@@ -11,6 +11,7 @@ $("body").on('keypress' , main)
 
 function main() {
   var A = event.key;
+  input == A
   var temp = ['d', 'f', 'g', 'h', 'j', 'k']
   console.log(A)
     if (temp.indexOf(A) >= 0) {
